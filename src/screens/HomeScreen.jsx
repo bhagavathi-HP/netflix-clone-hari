@@ -1,11 +1,11 @@
 import React from "react";
-import Nav from "./Nav";
-import Banner from "./Banner";
-import requests from "./Request";
-import Row from "./Row";
+import Nav from "../Nav";
+import Banner from "../Banner";
+import requests from "../Request";
+import Row from "../Row";
 const HomeScreen = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <Nav />
       <Banner />
       <Row
