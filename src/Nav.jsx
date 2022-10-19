@@ -22,7 +22,7 @@ const Nav = () => {
         <img
           onClick={() => navigate("/")}
           className="LogoImg"
-          src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+          src="https://pngimg.com/uploads/netflix/small/netflix_PNG32.png"
           alt=""
         />
         <img
