@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./LoginScreen.css";
 import SignUpForm from "./SignUpForm";
 const LoginScreen = () => {
+  const getstart = "Get Started >";
   const [signIn, setSignin] = useState(false);
   return (
     <div className="loginscreen">
@@ -21,8 +22,8 @@ const LoginScreen = () => {
           <SignUpForm />
         ) : (
           <>
-            <h1>Unlimited Films , TV programmes and more .</h1>
-            <h2>Watch Anywhere . Cancel at Anytime.</h2>
+            <h1>Unlimited Films , TV shows and more .</h1>
+            <h2>Watch Anywhere . Cancel Anytime.</h2>
             <h3>
               Ready to watch ? Enter your email to create or restart your
               membership
@@ -32,14 +33,14 @@ const LoginScreen = () => {
                 <input
                   type="email"
                   className="login_input"
-                  placeholder="Enter email"
+                  placeholder="Email address"
                   autoFocus
                 />
                 <button
                   onClick={() => setSignin(true)}
                   className="loginscreen_getstarted"
                 >
-                  GET STARTED
+                  {getstart}
                 </button>
               </form>
             </div>

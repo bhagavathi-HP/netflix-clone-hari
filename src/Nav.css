@@ -9,11 +9,12 @@
 .NavBlack {
   background-color: black;
 }
+
 .LogoImg {
   position: fixed;
-  left: 0;
+  height: 2rem;
+  width: 6.75rem;
   object-fit: contain;
-  width: 80px;
   padding-left: 20px;
   cursor: pointer;
 }
@@ -22,4 +23,5 @@
   position: fixed;
   right: 20px;
   width: 30px;
+  cursor: pointer;
 }

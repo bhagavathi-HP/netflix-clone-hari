@@ -6,7 +6,7 @@ const Nav = () => {
   const navigate = useNavigate();
   const [show, setShow] = useState(false);
   const transitionScroll = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 100 || window.scrollX < 30) {
       setShow(true);
     } else {
       setShow(false);
